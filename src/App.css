@@ -1,38 +1,40 @@
-.App {
+/* General container styling */
+.app-container {
   text-align: center;
+  margin-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Landing page container */
+.landing-container {
+  margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Heading styling */
+h2 {
+  margin-bottom: 20px;
+  color: #ffffff; /* Change the text color of h2 */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Styling for game buttons container */
+.game-buttons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Styling for individual game buttons */
+.game-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #28a745;
+  color: white; /* Change the text color of buttons */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Button hover effect */
+.game-button:hover {
+  background-color: #218838;
 }

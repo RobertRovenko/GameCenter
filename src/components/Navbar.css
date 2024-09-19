@@ -1,0 +1,41 @@
+/* src/Navbar.css */
+.navbar {
+    background-color: rgba(30,34,47,255)   ;
+    padding: 30px 30px; /* Increased padding for a more spacious appearance */
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    position: fixed; /* Fixed position to stay at the top */
+    width: 100%; /* Full width */
+    top: 0; /* Align to the top of the page */
+    left: 0; /* Align to the left of the page */
+    z-index: 1000; /* Ensure it's above other content */
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Subtle shadow for depth */
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+  }
+  
+  .navbar-menu {
+    list-style: none; /* Remove default list styling */
+    display: flex;
+    gap: 20px; /* Space between menu items */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .navbar-item {
+    margin: 0;
+  }
+  
+  .navbar-link {
+    color: #f8f9fa; /* Light color for better contrast */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px;
+    font-weight: 500; /* Slightly bolder font */
+    transition: color 0.3s ease; /* Smooth color transition */
+    
+  }
+  
+  .navbar-link:hover {
+    color: #ffc107; /* Highlight color on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
