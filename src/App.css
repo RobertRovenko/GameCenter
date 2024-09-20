@@ -1,7 +1,13 @@
 /* General container styling */
+/* Assuming the navbar is fixed or sticky */
+
+
+/* Adjust the container to account for the navbar */
 .app-container {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 50px; /* Add the same height as the navbar */
+  max-height: calc(100vh - 50px); /* Subtract navbar height from the viewport */
+  overflow-y: auto; /* Enable scrolling */
 }
 
 /* Landing page container */
