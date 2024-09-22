@@ -1,9 +1,8 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom"; // No need to import BrowserRouter again
-import TicTacToe from "./games/tictactoe";
-import RockPaperScissors from "./games/rockpaper";
-import "./gameboardbackground.css"; // Import the CSS file for the background
-import Navbar from "../src/components/Navbar.js"; // Import Navbar component
+import TicTacToe from "./games/tictactoe.js";
+import RockPaperScissors from "./games/rockpaper.js";
+import Navbar from "./components/Navbar.js"; // Import Navbar component
 
 const App = () => {
   return (
