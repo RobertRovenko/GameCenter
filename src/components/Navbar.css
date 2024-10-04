@@ -79,6 +79,14 @@ html, body {
     display: block;
   }
 
+  .navbar-toggle.hamburger:hover{
+    background-color: rgba(0, 0, 0, 0);
+
+  }
+  .navbar-toggle.x-icon:hover{
+    background-color: rgba(0, 0, 0, 0);
+    
+  }
   .navbar-toggle.x-icon {
     display: block;
   }
@@ -93,7 +101,10 @@ html, body {
   .navbar-menu.show {
     width: 30%;
   }
-
+  .navbar-toggle.x-icon:hover{
+    background-color: rgba(0, 0, 0, 0);
+    
+  }
   .navbar-toggle.hamburger {
     display: none;
   }

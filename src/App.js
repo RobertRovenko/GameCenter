@@ -2,7 +2,9 @@ import React from "react";
 import { Routes, Route, Link } from "react-router-dom"; // No need to import BrowserRouter again
 import TicTacToe from "./games/tictactoe.js";
 import RockPaperScissors from "./games/rockpaper.js";
+import ConnectFour from "./games/connectfour.js";
 import Navbar from "./components/Navbar.js"; // Import Navbar component
+import "./app.css";
 
 const App = () => {
   return (
@@ -13,6 +15,7 @@ const App = () => {
           <Route path="/" element={<LandingPage />} />
           <Route path="/tictactoe" element={<TicTacToe />} />
           <Route path="/rockpaperscissors" element={<RockPaperScissors />} />
+          <Route path="/connectfour" element={<ConnectFour />} />
         </Routes>
       </div>
     </div>
@@ -22,7 +25,7 @@ const App = () => {
 const LandingPage = () => {
   return (
     <div className="landing-container">
-      <h2>GAMES</h2>
+      <h2 className="title-text">GAMES</h2>
       <div className="game-buttons">
         <Link to="/tictactoe">
           <button className="game-button">Tic Tac Toe</button>

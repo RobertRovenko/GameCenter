@@ -1,46 +1,8 @@
-/* General container styling */
-/* Assuming the navbar is fixed or sticky */
-
-
-/* Adjust the container to account for the navbar */
-.app-container {
-  text-align: center;
-  margin-top: 50px; /* Add the same height as the navbar */
-  max-height: calc(100vh - 50px); /* Subtract navbar height from the viewport */
-  overflow-y: auto; /* Enable scrolling */
+.landing-container{
+  margin-top: 100px;
+  margin-left: 50px;
 }
 
-/* Landing page container */
-.landing-container {
-  margin-top: 50px;
-}
-
-/* Heading styling */
-h2 {
-  margin-bottom: 20px;
-  color: #ffffff; /* Change the text color of h2 */
-}
-
-/* Styling for game buttons container */
-.game-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-/* Styling for individual game buttons */
-.game-button {
-  padding: 15px 30px;
-  font-size: 18px;
-  background-color: #28a745;
-  color: white; /* Change the text color of buttons */
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-/* Button hover effect */
-.game-button:hover {
-  background-color: #218838;
+.title-text{
+  margin-left: 10px;
 }

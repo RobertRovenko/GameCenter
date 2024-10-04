@@ -74,7 +74,7 @@ const Navbar = () => {
             className="navbar-link"
             onClick={handleNavClick}
           >
-            Tic Tac Toe
+            Tic-Tac-Toe
           </Link>
         </li>
         <li className="navbar-item">
